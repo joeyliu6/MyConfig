@@ -1,0 +1,30 @@
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-family: "Microsoft YaHei", 微软雅黑;
+}
+.entry-content p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: "Microsoft YaHei", 微软雅黑;
+    line-height: 1.8em;
+}
+.entry-content figure img {
+    border: none;
+}
+figcaption {
+    text-align: center;
+}
+.item-title a {
+    letter-spacing: 0.02em;
+}
+a {
+    color: #353b48;
+}
+.entry-content ol {
+    font-size: 22px;
+}
+li {
+    line-height: 1.65;
+}
