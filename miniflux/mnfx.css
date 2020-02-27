@@ -1,14 +1,19 @@
 h2 {
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 30px;
-    font-weight: 400;
-    font-family: "Microsoft YaHei", 微软雅黑;
+    line-height: 1.3em;
+    letter-spacing: 0.07em;
+}
+.entry-content {
+    font-family: x-locale-heading-primary, zillaslab, Palatino, "Palatino Linotype", x-locale-heading-secondary, 'Source Han Serif SC', STZhongsong, "Source Han Sans CN", 'PingFang SC', 'Myriad Pro', 'Hiragino Sans GB', SimHei;
+    font-size:1.35em;
 }
 .entry-content p {
     margin-top: 25px;
     margin-bottom: 25px;
-    font-family: "Microsoft YaHei", 微软雅黑;
-    line-height: 1.8em;
+    line-height: 1.85em;
+    letter-spacing: 0.05em;
+    text-align: justify;
 }
 .entry-content figure img {
     border: none;
@@ -19,12 +24,18 @@ figcaption {
 .item-title a {
     letter-spacing: 0.02em;
 }
-a {
-    color: #353b48;
+p a {
+    color: #396;
+}
+ul li a {
+    color: #d5a24c;
 }
 .entry-content ol {
     font-size: 22px;
 }
 li {
     line-height: 1.65;
+}
+.entry-content img {
+    box-shadow: 0px 0px 10px 0px #000000;
 }
