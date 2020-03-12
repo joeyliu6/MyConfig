@@ -1,18 +1,35 @@
+body {
+    background: #d6d6d6;
+}
+.entry header {
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #717171;
+}
+.entry-content blockquote {
+    border-left: 4px solid #909090;
+}
+.category {
+    background-color: #d6d6d6;
+    border: 1px solid #616161;
+}
+h1 {
+    font-family: x-locale-heading-primary, zillaslab, Palatino, "Palatino Linotype", x-locale-heading-secondary, 'Source Han Serif SC', STZhongsong, "Source Han Sans CN", 'PingFang SC', 'Myriad Pro', 'Hiragino Sans GB', SimHei;
+}
 h2 {
     margin-top: 25px;
     margin-bottom: 30px;
     line-height: 1.3em;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.02em;
 }
 .entry-content {
     font-family: x-locale-heading-primary, zillaslab, Palatino, "Palatino Linotype", x-locale-heading-secondary, 'Source Han Serif SC', STZhongsong, "Source Han Sans CN", 'PingFang SC', 'Myriad Pro', 'Hiragino Sans GB', SimHei;
-    font-size:1.35em;
+    font-size: 1.35em;
 }
 .entry-content p {
     margin-top: 25px;
     margin-bottom: 25px;
-    line-height: 1.85em;
-    letter-spacing: 0.05em;
+    line-height: 1.45em;
+    letter-spacing: 0.035em;
     text-align: justify;
 }
 .entry-content figure img {
@@ -24,11 +41,14 @@ figcaption {
 .item-title a {
     letter-spacing: 0.02em;
 }
+a {
+    color: #3c3c3c;
+}
 p a {
     color: #396;
 }
 ul li a {
-    color: #d5a24c;
+    color: #396;
 }
 .entry-content ol {
     font-size: 22px;
@@ -38,4 +58,21 @@ li {
 }
 .entry-content img {
     box-shadow: 0px 0px 10px 0px #000000;
+    display: block;
+    margin: 0 auto;
+}
+.item {
+    border: none;
+    border-bottom: 1px dotted #828282;
+    margin-bottom: 5px;
+}
+.page-header h1 {
+    padding-bottom: 10px;
+}
+.parsing-error {
+    color: red;
+}
+article.feed-parsing-error {
+    background-color: #ffa5a5;
+    border-color: #aaa;
 }
