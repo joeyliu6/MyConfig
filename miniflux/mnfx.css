@@ -1,5 +1,5 @@
 body {
-    background: #d6d6d6;
+    background: #f5eddd;
 }
 .entry header {
     padding-bottom: 5px;
@@ -9,10 +9,13 @@ body {
     border-left: 4px solid #909090;
 }
 .category {
-    background-color: #d6d6d6;
-    border: 1px solid #616161;
+    background-color: rgb(255, 236, 199);
+    border: 1px solid #fdd487;
 }
-h1 {
+.category a {
+    color: #f7c259;
+}
+h1,h2,h3,h4 {
     font-family: x-locale-heading-primary, zillaslab, Palatino, "Palatino Linotype", x-locale-heading-secondary, 'Source Han Serif SC', STZhongsong, "Source Han Sans CN", 'PingFang SC', 'Myriad Pro', 'Hiragino Sans GB', SimHei;
 }
 h2 {
@@ -22,14 +25,14 @@ h2 {
     letter-spacing: 0.02em;
 }
 .entry-content {
-    font-family: x-locale-heading-primary, zillaslab, Palatino, "Palatino Linotype", x-locale-heading-secondary, 'Source Han Serif SC', STZhongsong, "Source Han Sans CN", 'PingFang SC', 'Myriad Pro', 'Hiragino Sans GB', SimHei;
-    font-size: 1.35em;
+    font-family: -apple-system, BlinkMacSystemFont, PingFang-SC-Regular, Hiragino Sans GB, Microsoft Yahei, Arial, sans-serif;
+    font-size: 1.25em;
 }
 .entry-content p {
     margin-top: 25px;
     margin-bottom: 25px;
-    line-height: 1.45em;
-    letter-spacing: 0.035em;
+    line-height: 1.5em;
+    letter-spacing: 0.03em;
     text-align: justify;
 }
 .entry-content figure img {
@@ -48,7 +51,7 @@ p a {
     color: #396;
 }
 ul li a {
-    color: #396;
+    color: #333333;
 }
 .entry-content ol {
     font-size: 22px;
