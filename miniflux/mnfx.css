@@ -76,3 +76,6 @@ article.feed-parsing-error {
     background-color: #ffa5a5;
     border-color: #aaa;
 }
+.entry-content {
+    color: #3a3a3a;
+}
