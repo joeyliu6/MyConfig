@@ -1,0 +1,5 @@
+notion.so,
+inoreader.com,
+userstyles.org,
+getpocket.com,
+github.com
